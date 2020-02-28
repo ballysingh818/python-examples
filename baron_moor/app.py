@@ -49,8 +49,10 @@ def main():
             if option == "yes":
                 con = False
 
+            elif option == "no":
+                con = True
             else:
-                pass
+                print("Invalid Input")
 
     playerPosition = PlayerPosition()
     treasurePosition = TreasurePosition()
